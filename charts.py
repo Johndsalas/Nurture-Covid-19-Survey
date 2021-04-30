@@ -48,7 +48,7 @@ def omnichart(df):
             plt.ylim([0,100])
 
             plt.ylabel('% of Respondents in Each Catagory')
-            plt.title(f'Percent of Respondants Identifying {need} Among Most Helpful Supports by {column}')
+            plt.title(f'Percent of Respondents Identifying {need} Among Most Helpful Supports by {column}')
 
             plt.show()
 
@@ -81,8 +81,8 @@ def get_hierarchy(df):
             plt.barh(X,y)
 
             plt.ylabel('Needs')
-            plt.xlabel('% of respondents Identifying Need as Among Most Helpful')
-            plt.title(f'Hiegharchy of Supports {column}: {value}')
+            plt.xlabel('% of Respondents Identifying Need as Among Most Helpful')
+            plt.title(f'Hierarchy of Supports {column}: {value}')
             plt.xlim([0,100])
             plt.show()
 
